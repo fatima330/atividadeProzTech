@@ -1,7 +1,52 @@
+#principal {
+  font-size: 25px;
+  text-align: center;
+}
+
 body {
-    background: rgb(241, 240, 240);
+    background: rgb(230, 225, 225);
     font-family: sans-serif;
 }
-.nav{
-    background: rgb(226, 226, 231);
+navlist{
+    color: rgb(31, 31, 93);
+    display:flex;
+
+    justify-content: space-between;
+   list-style: none;
+   align-items: center;
+   
 }
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  font-size: 15px;
+  justify-content: space-around;
+  color: blue;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+
+p, a {
+    font-family: sans-serif;
+    color: rgb(14, 14, 17);
+    font-size: 15px;
+}
+  
+  .elegante {
+    font-weight: bold;
+    text-shadow: 4px 4px 3px #77f;
+  }
+  
+  
+    
+  a {
+    color: rgb(67, 67, 104);
+  }
+
+
+  
